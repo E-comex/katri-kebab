@@ -284,6 +284,7 @@ document.addEventListener('DOMContentLoaded', function () {
         document.querySelector('.nav-item:nth-child(2) .nav-link').textContent = translations[lang].menu;
         document.querySelector('.nav-item:nth-child(3) .nav-link').textContent = translations[lang].about;
         document.querySelector('.nav-item:nth-child(4) .nav-link').textContent = translations[lang].contact;
+        document.querySelector('.nav-item:nth-child(5) .nav-link').textContent = translations[lang].order;
         document.querySelector('.order_online').textContent = translations[lang].order;
 
         // Translte slider content
